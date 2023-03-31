@@ -1,0 +1,11 @@
+.about {
+  width: 100%;
+
+  &__paragraph {
+    margin-bottom: 15px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

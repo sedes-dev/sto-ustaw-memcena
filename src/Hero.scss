@@ -1,0 +1,22 @@
+.hero {
+  width: 100%;
+  position: relative;
+
+  &__image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  &__title {
+    font-size: 47px;
+    background: rgba(0,0,0,0.3);
+    padding: 16px 24px;
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    transform: translateY(-50%);
+    width: 460px;
+    color: #fff;
+  }
+}
