@@ -10,9 +10,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media screen and (max-width: 850px) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    @media screen and (max-width: 640px) {
+      padding: 15px 20px;
+    }
   }
 
   &__logo {
+    @media screen and (max-width: 850px) {
+      text-align: center;
+    }
+
     div {
       &:first-child {
         font-size: 36px;
@@ -23,6 +36,14 @@
 
   &__nav {
     display: flex;
+
+    @media screen and (max-width: 850px) {
+      margin-top: 20px;
+    }
+
+    @media screen and (max-width: 640px) {
+      display: none;
+    }
 
     a {
       margin-left: 25px;
@@ -35,6 +56,10 @@
 
   &__section {
     padding: 30px 40px;
+
+    @media screen and (max-width: 640px) {
+      padding: 15px 20px;
+    }
   }
 
   &__footer {

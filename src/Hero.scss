@@ -18,5 +18,9 @@
     transform: translateY(-50%);
     width: 460px;
     color: #fff;
+
+    @media screen and (max-width: 850px) {
+      display: none;
+    }
   }
 }
