@@ -23,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "node ghPages.js",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build && node generateCNAME.js"
   },
   "eslintConfig": {
     "extends": [
